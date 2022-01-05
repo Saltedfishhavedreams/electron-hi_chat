@@ -1,0 +1,20 @@
+[
+  {
+    "key": "FunctionPage",
+    "href": "#/function_page",
+    "title": "翻译功能",
+    "icon": "function"
+  },
+  {
+    "key": "Menu",
+    "href": "#/menu",
+    "title": "菜单",
+    "icon": "menu"
+  },
+  {
+    "key": "UserInfo",
+    "href": "#/userInfo",
+    "title": "用户信息",
+    "icon": "user"
+  }
+]

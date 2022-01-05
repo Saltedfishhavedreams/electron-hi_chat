@@ -1,0 +1,36 @@
+@import '~@/src/styles/_var.less';
+
+.app-sidebar {
+  position: relative;
+  width: @sidebar_width;
+  height: 100vh;
+  background-color: @sidebar_background;
+  color: fade(@color_light, 75);
+  user-select: none;
+
+  .app-sidebar-header {
+    margin-top: 36px;
+  }
+
+  .app-version {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+  }
+
+  .side-menu {
+    margin-top: @padding;
+    .side-menu-item {
+      width: 100%;
+      text-align: center;
+      padding: @padding;
+      color: fade(@color_light, 65);
+      &:hover,
+      &.active {
+        color: @color_white;
+      }
+    }
+  }
+}
